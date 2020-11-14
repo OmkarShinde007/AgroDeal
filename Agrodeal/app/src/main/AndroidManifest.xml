@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.ss.com.agrodeal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/agrodeal"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.ValidateActivity"></activity>
+        <activity android:name=".activity.DealerCropsActivity" />
+        <activity android:name=".activity.SoldActivity" />
+        <activity android:name=".activity.FarmerReviewActivity" />
+        <activity android:name=".activity.AllFarmerActivity" />
+        <activity android:name=".activity.BrokerHomeActivity" />
+        <activity
+            android:name=".activity.AllDealersActivity"
+            android:label="@string/title_activity_all_dealers" />
+        <activity android:name=".activity.MyAuctionsActivity" />
+        <activity android:name=".activity.ReviewActivity" />
+        <activity
+            android:name=".activity.ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.DealerHomeActivity" />
+        <activity
+            android:name=".activity.AllAuctionsActivity"
+            android:label="@string/allAuctions" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.AddCropActivity" />
+        <activity android:name=".activity.MyCropsActivity" />
+        <activity
+            android:name=".activity.ViewBiddingActivity"
+            android:label="@string/allAuctions"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

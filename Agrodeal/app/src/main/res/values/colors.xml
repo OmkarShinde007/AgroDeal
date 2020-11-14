@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb560</color>
+    <color name="colorPrimaryDark">#309f62</color>
+    <color name="success_stroke_color">#86dcc7</color>
+    <color name="button_color">#5eb944</color>
+    <color name="mainAttribute">#222222</color>
+    <color name="secondaryAttribute">#999999</color>
+    <color name="tertiaryAttribute">#D6BA18</color>
+    <color name="tertiaryAttributeView">#27BE0B</color>
+
+</resources>

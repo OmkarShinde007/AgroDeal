@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.ss.com.agrodeal.activity.ChatActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@drawable/nature_back">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rele_bottom"
+            android:layout_margin="4sp"
+            android:layout_marginBottom="0sp"
+            android:layout_marginLeft="0sp"
+            android:layout_marginRight="0sp" />
+
+        <RelativeLayout
+            android:id="@+id/rele_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="10sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_toLeftOf="@+id/imgbtn_send"
+                android:background="@drawable/back_edt">
+
+                <EditText
+                    android:id="@+id/edt_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:hint="@string/enterBid"
+                    android:background="@android:color/transparent"
+                    android:layout_toLeftOf="@+id/imgbtn_file"
+                    android:inputType="numberDecimal"
+                    android:padding="7sp" />
+
+                <ImageButton
+                    android:id="@+id/imgbtn_file"
+                    android:layout_width="42sp"
+                    android:layout_height="42sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="1sp"
+                    android:src="@drawable/ic_attach_file_black_24dp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/imgbtn_send"
+                android:layout_width="42sp"
+                android:layout_height="42sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/back_sendbtn"
+                android:paddingLeft="5sp"
+                android:src="@drawable/ic_send_black_24dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

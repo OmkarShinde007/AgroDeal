@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">एग्रोसौदा</string>
+    <string name="title_activity_menu">मेन्यू</string>
+    <string name="name">नाम दर्ज करें</string>
+    <string name="email">ईमेल पता</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉगिन</string>
+    <string name="register">रजिस्टर</string>
+    <string name="city">शहर दर्ज करें</string>
+    <string name="mobile">मोबाइल दर्ज करें</string>
+    <string name="dealer">विक्रेता</string>
+    <string name="broker">दलाल</string>
+    <string name="farmer">किसान</string>
+    <string name="referralCode">रेफ़रल कोड दर्ज करें (वैकल्पिक)</string>
+    <string name="registerHere">खाता नहीं है? साइन अप करें</string>
+    <string name="appHeading">एग्रोसौदा</string>
+    <string name="cropName">फसल का नाम दर्ज करें</string>
+    <string name="cropRate">फसल दर दर्ज करें</string>
+    <string name="crop">फसल</string>
+    <string name="review">समीक्षा</string>
+    <string name="submit">दर्ज</string>
+    <string name="addCrop">फसल दर्ज करें</string>
+    <string name="cropDetail">डिटेल डालें</string>
+    <string name="myCrop">मेरी फसलें</string>
+    <string name="myAuctions">मेरी फसलों की नीलामी</string>
+    <string name="allAuctions">सभी नीलामी</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="thank_you">धन्यवाद</string>
+    <string name="title_activity_all_auctions">सभी नीलामी</string>
+    <string name="reviewPlaceholder">अपनी समीक्षा यहां दर्ज करें</string>
+    <string name="addReview">समीक्षा</string>
+    <string name="allDealers">सभी व्यापारियों</string>
+    <string name="allFarmers">सभी किसान</string>
+    <string name="stop">रोक</string>
+    <string name="title_activity_all_dealers">सभी व्यापारियों</string>
+    <string name="rating">रेटिंग (0 से 5 के बीच)</string>
+    <string name="viewReviews">प्रोफाइल देखिये</string>
+    <string name="title_activity_dealer">डीलर प्रोफ़ाइल</string>
+    <string name="enterBid">बोली राशि दर्ज करें..</string>
+    <string name="canView">आप केवल देख सकते हैं</string>
+    <string name="cropSold">फसल बिक चुकी है</string>
+    <string name="add">जोड़ें</string>
+    <string name="startsFrom"> से शुरू होता है </string>
+    <string name="soldCrops">बेची गई फसलें</string>
+    <string name="rate">रेटिंग</string>
+    <string name="auctionRunning">नीलामी चल रही है</string>
+    <string name="winningAmount">रकम: </string>
+    <string name="wonnedCrop">जीती हुई फसलें</string>
+    <string name="enterOtp">OTP दर्ज करें</string>
+
+</resources>
